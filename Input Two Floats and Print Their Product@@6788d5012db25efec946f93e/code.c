@@ -4,7 +4,7 @@ int main() {
 
     scanf("%d %d", &num1, &num2);
 
-    printf("The greatest number is: %d\n", greatest);
+    printf("The greatest number is: %d\n", num1 * num2);
 
     return 0;
  
