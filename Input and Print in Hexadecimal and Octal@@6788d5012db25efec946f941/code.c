@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 int main() {
-    float num1, num2, product;
-    int intProduct;
+    int num;
 
-    scanf("%f %f", &num1, &num2);
-    product = num1 * num2;
-    intProduct = (int)product;  // Convert float to int for hex & octal
+    // Taking integer input
+    printf("Enter an integer: ");
+    scanf("%d", &num);
 
-    printf("Hexadecimal: %x\n", intProduct);
-    printf("Octal: %o\n", intProduct);
+    // Printing in Hexadecimal and Octal formats
+    printf("Hexadecimal: %X\n", num);  // Hexadecimal in uppercase
+    printf("Octal: %o\n", num);  // Octal representation
 
     return 0;
 }
