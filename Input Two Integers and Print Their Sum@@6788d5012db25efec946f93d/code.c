@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main() {
-    int num1, num2, num3, greatest;
+    int num;
 
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
+    scanf("%d", &num);
 
-    printf("The greatest number is: %d\n", greatest);
+    printf("Sum: %d\n", num);
 
     return 0;
  
