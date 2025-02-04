@@ -7,7 +7,7 @@ int main() {
 
     greatest = num1 + num2 + num3 / 3.00;
 
-    printf("Average: %d\n", greatest);
+    printf("Average: %.2d\n", greatest);
 
     return 0;
  
