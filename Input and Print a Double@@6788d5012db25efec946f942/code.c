@@ -5,7 +5,9 @@ int main() {
 
     scanf("%lf %lf", &num1, &num2);
 
-    printf("You entered: %.2lf, %.2lf\n", num1, num2);
+    printf("You entered: %.2lf\n", num1);
+    printf("You entered: %.2lf", num2);
+
 
     return 0;
 }
