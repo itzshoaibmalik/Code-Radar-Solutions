@@ -5,9 +5,9 @@ int main() {
     printf("Enter three numbers: ");
     scanf("%d %d %d", &num1, &num2, &num3);
 
-    greatest = (num1 + num2 + num3 % 3);
+    greatest = (num1 + num2 + num3 / 3.0);
 
-    printf("The greatest number is: %d\n", greatest);
+    printf("Average: %d\n", greatest);
 
     return 0;
  
