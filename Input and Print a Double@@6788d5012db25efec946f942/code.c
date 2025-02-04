@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    double str1, str2;
+    double num1, num2;
 
-  
-    scanf("%if %if", str1, str2);  // Reads two strings separated by space
+    scanf("%lf %lf", &num1, &num2);
 
-    printf("You entered: %if, %if\n", str1, str2);
+    printf("You entered: %.2lf, %.2lf\n", num1, num2);
 
     return 0;
 }
