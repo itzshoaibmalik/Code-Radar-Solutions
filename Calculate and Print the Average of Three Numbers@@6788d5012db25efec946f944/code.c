@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    float num1, num2, num3, greatest;
+    float greatest;
+    int num1, num2, num3;
 
     scanf("%d %d %d", &num1, &num2, &num3);
 
