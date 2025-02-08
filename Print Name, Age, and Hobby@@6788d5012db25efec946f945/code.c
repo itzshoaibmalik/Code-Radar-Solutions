@@ -5,7 +5,6 @@ int main() {
     int age;
     char hobby[50];
 
-    printf("Enter your name, age, and hobby: ");
     scanf("%s %d %s", name, &age, hobby);
 
     printf("Name: %s\n", name);
