@@ -6,9 +6,9 @@ int main() {
     scanf("%d %d", &num1, &num2);  // Correct scanf format
 
     if (num1 >= num2) {  // Correct if statement syntax
-        printf("False\n");  // Added semicolon
-    } else {
         printf("True\n");  // Added semicolon
+    } else {
+        printf("False\n");  // Added semicolon
     }
 
     return 0;
