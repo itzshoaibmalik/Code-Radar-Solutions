@@ -16,10 +16,10 @@ int main() {
     // }
 
     else if (num1 > 0 && num2 > 0) {
-        printf("True\n");
+        printf("False\n");
     } 
     else if (num1 < 0 || num2 < 0) {
-        printf("False\n");
+        printf("True\n");
     }
     // if (!(num1 > 0)) {
     //     printf("num1 is not positive\n");
