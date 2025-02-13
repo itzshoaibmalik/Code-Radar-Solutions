@@ -18,8 +18,9 @@ int main() {
     else if (num1 < 0 && num2 > 0) {
         printf("False\n");
     } 
-    else if (num1 < 0 || num2 > 0) {
-        printf("False\n");
+    
+    } else{
+        printf("True\n")
     }
     // if (!(num1 > 0)) {
     //     printf("num1 is not positive\n");
