@@ -15,11 +15,11 @@ int main() {
     //     printf("num1 is equal to num2\n");
     // }
 
-    else if (num1 > 0 && num2 < 0) {
+    else if (num1 < 0 && num2 > 0) {
         printf("False\n");
     } 
     else if (num1 < 0 || num2 > 0) {
-        printf("True\n");
+        printf("False\n");
     }
     // if (!(num1 > 0)) {
     //     printf("num1 is not positive\n");
