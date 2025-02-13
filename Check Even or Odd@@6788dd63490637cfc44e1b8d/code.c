@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &num);
 
     if (num & 1) {
-        printf("%d is Odd\n", num);
+        printf("Odd\n", num);
     } else {
-        printf("%d is Even\n", num);
+        printf("Even\n", num);
     }
 
     return 0;
