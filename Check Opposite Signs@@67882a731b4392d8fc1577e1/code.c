@@ -19,9 +19,9 @@ int main() {
         printf("False\n");
     } 
     
-    } else{
+    else{
         printf("True\n");
-    
+    }
     // if (!(num1 > 0)) {
     //     printf("num1 is not positive\n");
     // }
