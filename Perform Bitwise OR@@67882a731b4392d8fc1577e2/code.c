@@ -7,7 +7,7 @@ int main() {
 
     result = num1 | num2;
 
-    printf(num1, num2, result);
+    printf("Result of %d | %d = %d\n", num1, num2, result);
 
     return 0;
 }
