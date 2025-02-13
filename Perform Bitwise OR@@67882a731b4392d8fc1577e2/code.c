@@ -7,7 +7,7 @@ int main() {
 
     result = num1 | num2;
 
-    printf(result)
+    printf(result);
 
     return 0;
 }
