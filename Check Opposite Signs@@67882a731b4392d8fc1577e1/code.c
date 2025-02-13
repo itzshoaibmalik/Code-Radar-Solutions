@@ -18,7 +18,7 @@ int main() {
     else if (num1 > 0 && num2 > 0) {
         printf("False\n");
     } 
-    else if (num1 < 0 || num2 < 0) {
+    else if (num1 < 0 || num2 > 0) {
         printf("True\n");
     }
     // if (!(num1 > 0)) {
