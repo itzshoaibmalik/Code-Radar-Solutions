@@ -21,7 +21,7 @@ int main() {
     
     } else{
         printf("True\n");
-    }
+    
     // if (!(num1 > 0)) {
     //     printf("num1 is not positive\n");
     // }
