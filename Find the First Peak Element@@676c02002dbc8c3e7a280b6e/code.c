@@ -11,7 +11,7 @@ int main() {
 
     // Handle edge case for the first element
     if (n >= 2 && arr[0] > arr[1]) {
-        printf("%d\n", arr[0]);
+        printf("%d\n");
         return 0;
     }
 
