@@ -21,7 +21,11 @@ int main() {
     // Temporary array to store the rotated elements
     int temp[n];
 
-    
+    // Fill the temporary array with rotated elements
+    for (int i = 0; i < n; i++) {
+        temp[(i + k) % n] = arr[i];
+    }
 
+  
     return 0;
 }
