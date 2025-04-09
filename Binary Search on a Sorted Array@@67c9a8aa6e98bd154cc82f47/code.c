@@ -1,21 +1,18 @@
-int isPrime(int n) {
-    if (n <= 1) return 0;
-    for (int i = 2; i * i <= n; i++) { // Replacing sqrt(n) with i * i <= n
-        if (n % i == 0) return 0;
-    }
-    return 1;
-}
+// Your code here...
+int binarySearch(int arr[], int length, int target){
+    int left = 0;
+    int right = length-1;
+    while(left <= right){
+        int mid = left + (right-left) / 2 ;        
+        if (arr[mid] == target) {
+            return mid;
+        }
 
-// Function to print prime numbers in the range [a, b]
-void printPrimesInRange(int a, int b) {
-    int found = 0;
-    for (int i = a; i <= b; i++) {
-        if (isPrime(i)) {
-            printf("%d ", i);
-            found = 1;
+        if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
         }
     }
-    if (!found) {
-        printf("No prime numbers\n");
-    }
+    return -1;
 }
