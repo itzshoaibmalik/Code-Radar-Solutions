@@ -6,7 +6,7 @@ int main() {
 
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d");
+        scanf("%d", &arr[i]);
     }
 
     int evenCount = 0;
@@ -20,7 +20,6 @@ int main() {
         }
     }
 
-    printf("%d %d\n", evenCount, oddCount);
 
     return 0;
 }
