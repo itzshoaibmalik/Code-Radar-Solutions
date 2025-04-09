@@ -28,7 +28,6 @@ int main() {
         // Count frequency of the current element
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
-                freq++;
             }
         }
 
