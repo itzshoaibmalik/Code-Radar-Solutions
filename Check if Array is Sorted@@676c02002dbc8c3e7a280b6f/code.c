@@ -11,7 +11,7 @@ int main() {
 
     // Corrected loop and logic
     for (int j = 0; j < n - 1; j++) {
-        if (arr[j] > arr[j +++]) {
+        if (arr[j] > arr[j ++]) {
             printf("Not Sorted\n"); // Print and exit if not sorted
             return 0;
         }
